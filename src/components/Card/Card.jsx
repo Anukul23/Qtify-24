@@ -10,6 +10,7 @@ const Card = ({data,type}) => {
 
       case "album" : {
         const {image,follows,title,songs} = data;
+        
 
         return (
 
